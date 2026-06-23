@@ -1,0 +1,46 @@
+# Environment & Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# Models & Data (large files - use Git LFS or exclude)
+models/
+data/raw/
+*.bin
+*.pt
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+nohup.out
+
+
+01_conversational_ai_notebook.py
+01_conversational_ai_notebook.ipynb
